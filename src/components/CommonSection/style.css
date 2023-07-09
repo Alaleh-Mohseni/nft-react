@@ -1,0 +1,11 @@
+.common-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),url("../../assets/images/nft_landing_page_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+}
+
+.common-section h2 {
+  color: #4b50e6;
+}

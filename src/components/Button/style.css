@@ -1,0 +1,78 @@
+.button {
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 7px 25px;
+}
+
+.button {
+    background-color: #5142fc;
+    color: #fff;
+}
+
+.create {
+    background-color: #fff;
+    color: #5142fc;
+    border: 1px solid #5142fc;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.button a:hover {
+    color: #fff;
+}
+
+.create a {
+    color: #5142fc;
+}
+
+.button i {
+    font-size: 1rem;
+}
+
+.connect-wallet {
+    display: none;
+}
+
+.contact {
+    padding: 9px 25px;
+    margin: 20px auto;
+}
+
+.contact a {
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .button {
+        padding: 4px 25px;
+    }
+
+    .button a {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .walletBtn {
+        display: none;
+    }
+
+    .connect-wallet {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .contact a {
+        font-size: 1rem;
+        padding: 8px 13px;
+    }
+
+}

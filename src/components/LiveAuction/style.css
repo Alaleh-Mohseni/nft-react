@@ -1,0 +1,15 @@
+.live-auction__top h3 {
+  color: #000;
+}
+
+.live-auction__top span a {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #5142fc;
+}
+
+@media only screen and (max-width: 600px) {
+  .live-auction {
+    padding: 0;
+  }
+}

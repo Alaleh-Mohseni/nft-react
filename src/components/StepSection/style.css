@@ -1,0 +1,39 @@
+.single__step__item {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.step__title {
+  color: #000;
+}
+
+.step__item__content h5 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.single__step__item span i {
+  color: #fff;
+  padding: 15px;
+  font-size: 1.5rem;
+  background: #5142fc;
+  border-radius: 5px;
+}
+
+.step__item__content {
+  margin-top: 20px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  
+  .step__item__content h5 a {
+    font-size: 0.9rem;
+  }
+
+  .single__step__item p {
+    font-size: 0.7rem;
+    line-height: 25px;
+  }
+}
